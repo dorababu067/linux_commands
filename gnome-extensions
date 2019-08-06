@@ -1,0 +1,23 @@
+Installing GNOME Shell Extensions
+
+sudo apt install gnome-tweak-tool
+
+gnome-shell --version
+
+1. Use gnome-shell-extensions package [easiest and safest way]
+-----------------------------------------------------------------------
+sudo apt install gnome-shell-extensions
+
+You’ll have to reboot your system (or maybe just restart GNOME Shell, I don’t remember it at this point). After that, start
+GNOME Tweaks and you’ll find a few extensions installed. You can just toggle the button to start using an installed extension.
+
+
+
+2. Install GNOME Shell extensions from a web browser
+--------------------------------------------------------------------
+
+Step 1: Install browser add-on
+https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep
+
+Step 2: Install native connector 
+sudo apt install chrome-gnome-shell 
