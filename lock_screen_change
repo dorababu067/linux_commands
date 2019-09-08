@@ -1,0 +1,26 @@
+How to change the login picture in Ubuntu 18.04
+Today we look at how to change the login image in Ubuntu 18.04.  It is slightly tricky but with the commands found at the bottom of this post and with the help of the video you will get it!
+
+Commands Used: 
+sudo gedit /usr/share/gnome-shell/theme/ubuntu.css
+search for "#lockDialogGroup"
+replace:
+
+{
+background: #2c001e url (resource:///org/gnome/shell/theme/noise-texture.png);
+background-repeat: repeat;
+}
+
+with
+
+{
+background: #2c001e url(file:///[path_to_image/image_name.png]);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+replace path to image and image name with the image you like to use save and reboot your system
+
+
+https://www.linuxmadesimple.info/2018/11/how-to-change-login-screen-picture-in.html
