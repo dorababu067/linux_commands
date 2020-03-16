@@ -13,7 +13,7 @@ To Create the new "Refresh" option:
 
 'Define a new action' and change its name to Refresh
 On the Action tab, enable 'Display item in location context menu'
-On the Command tab set the Path to /usr/bin/xdotool or (xte), Parameters, type in 'key F5' without quotes.
+On the Command tab set the Path to (/usr/bin/xdotool), Parameters, type in (key F5) without quotes.
 Save your changes with File/Save.
 
 To set the context menu to show directly, and not in a sub-menu:
