@@ -1,1 +1,5 @@
 https://www.youtube.com/watch?v=BLVtxpm5c2A&t=625s
+
+
+1)minimize and maximize 
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize' 
